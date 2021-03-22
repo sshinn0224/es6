@@ -32,12 +32,15 @@
 
 // default value
 
-let [one , two, five = 5] = [1,2];
+// let [one , two, five = 5] = [1,2];
 
-console.log(five);
+// console.log(five);
 
-[one, two, five = 5] = [1,2,77];
-console.log(five);
+// [one, two, five = 5] = [1,2,77];
+// console.log(five);
 
-let {six, seven = 7} = {six: 6};
-console.log(six, seven);
+// let {six, seven = 7} = {six: 6};
+// console.log(six, seven);
+
+let [one, two = one + 1, five = two + 3] = [1];
+console.log(one, two, five);
