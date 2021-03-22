@@ -5,4 +5,4 @@ try {
 }
 
 console.log(Object.assign(123));
-console.log(Object.assign(456,  70));
+console.log(Object.assign(456,  70));  
