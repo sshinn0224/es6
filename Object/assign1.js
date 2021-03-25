@@ -85,10 +85,25 @@
 // console.log(Object.is(oneObj, mergeObj));
 
 // assign8 
-let obj = {one : 1};
+// let obj = {one : 1};
 
-Object.assign(obj, {two:2}, {two:3}, {four:4});
+// Object.assign(obj, {one: 22}, {two:2}, {two:3}, {four:4});
 
-for(var pty in obj){ 
-    console.log(pty, obj[pty]);
-}
+// for(var pty in obj){ 
+//     console.log(pty, obj[pty]);
+// }
+
+// assign9
+// let count = {
+//     current: 1,
+//     get getCount() {
+//         return ++this.current;
+//     }
+// };
+
+// let mergeObj = {};
+// Object.assign(mergeObj, count);
+// console.log(mergeObj);
+
+
+// assign10
