@@ -1,5 +1,6 @@
 "use strict";
 
+// sample
 // generator #1
 
 // function* sports(one, two){ 
